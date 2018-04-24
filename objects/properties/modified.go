@@ -6,7 +6,7 @@
 package properties
 
 import (
-	"github.com/freetaxii/libstix2/common/timestamp"
+	"github.com/dairehoman/libstix2/common/timestamp"
 )
 
 // ----------------------------------------------------------------------

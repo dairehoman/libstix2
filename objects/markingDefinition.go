@@ -1,7 +1,7 @@
 package objects
 
 import (
-	"github.com/freetaxii/libstix2/objects/properties"
+	"github.com/dairehoman/libstix2/objects/properties"
 )
 
 //MarkingDefintionType -

@@ -7,9 +7,10 @@ package timestamp
 
 import (
 	"fmt"
-	"github.com/freetaxii/libstix2/defs"
 	"regexp"
 	"time"
+
+	"github.com/dairehoman/libstix2/defs"
 )
 
 // These functions are used by the follow properties and objects:
