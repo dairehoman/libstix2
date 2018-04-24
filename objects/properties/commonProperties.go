@@ -78,6 +78,15 @@ func (p *CommonObjectPropertiesType) InitObjectProperties(objectType, version st
 	return nil
 }
 
+//InitMarkingDefinitionObjectProperties -
+func (p *CommonMarkingDefinitionPropertiesType) InitMarkingDefinitionObjectProperties(objectType, version string) error {
+	p.SetSpecVersion(version)
+	p.SetObjectType(objectType)
+	p.SetNewID(objectType)
+	p.SetCreatedToCurrentTime()
+	return nil
+}
+
 // SetModifiedToCreated sets the object modified time to be the same as the
 // created time. This has to be done at this level, since at the individual
 // properties type say "ModifiedPropertyType" this.Created does not exist.
